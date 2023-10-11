@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    font-family: "Lucida Console";
+    padding: 100px;
+}
+
+h1{
+    position: relative;
+    bottom: 40px;
+}
+
+input.start{
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    border: 5px solid #A4217D;
+    border-radius: 33px 40px 40px 0px;
+    outline: none;
+}
+
+
+input.end{
+    text-align: center;
+    margin: 20px;
+    padding: 0px 0px 50px 0px;
+    width: 250px;
+    height: 50px;
+    border: 5px solid #A4217D;
+    border-radius: 40px 40px 40px 40px;
+    outline: none;
+}
+
+input[type='text']{
+    padding: 10px;
+    font-family: "Lucida Console";
+}
+
+input::placeholder{
+    font-family: "Lucida Console";
+    text-align: center;
+}
+
+.send {
+    font-family: "Lucida Console";
+    text-align: center;
+    display: inline-block;
+    width: 120px;
+    transform: translate(0px, 10px);
+    padding: 8px;
+    font-size: 15px;
+    background-color: #A4217D;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    transition-duration: 0.5s;
+    box-shadow: 0px 6px #adadad;
+    cursor: pointer;
+}
+
+.send:hover {
+    background-color: #c51b92
+}
+
+.send:active {
+    background-color: #ff00af;
+    box-shadow: 0 5px #666;
+    transform: translate(0, 0.9em)
+}
